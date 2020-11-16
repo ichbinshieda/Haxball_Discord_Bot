@@ -7,12 +7,12 @@ Puppeteer and discord.js modules are required. Install them by running `npm inst
 ## Getting started
 
 1. Copy all of your Haxball room scripts to ./haxRoom directory
-2. Fill the config.js file
+2. Fill the config.js file ([how?](#config-file))
 3. In main directory, run `node app.js` command to start the app
 4. Solve captcha
 5. Enter the room and start using start using Discord bot!
 
-## Config.json
+## Config file
 This is the file where you put all of your information in order for bot to work. 
 
 Config properties:
@@ -20,7 +20,7 @@ Config properties:
 - discordBotToken - token used to login to Discord bot (get it from [here](https://discord.com/developers/applications))
 - botClientID - also available [here](https://discord.com/developers/applications)
 - adminChannels - array of IDs of channels where you can execute admin-only commands (e.g. bans and kicks)
-- chatChannels - array of IDs of channels that are synchronized with Haxball chat (to send Haxball messages to Discord channel setup a webHook)
+- chatChannels - array of IDs of channels that are synchronized with Haxball chat (also see [this](#synchronizing-chats))
 - ignoredWebHooks - array of IDs of webHooks that are ignored and their messages not synchronized with Haxball chat
 - ignoredBots - array of IDs of bots that are ignored and their messages not synchronized with Haxball chat
 
