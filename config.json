@@ -1,0 +1,9 @@
+{
+    "discordBotToken": "",
+    "botClientID": "",
+    "adminChannels": [""],
+    "chatChannels": [""],
+    "ignoredWebHooks": [""],
+    "ignoredBots": [""]
+    
+}
